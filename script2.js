@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'engine-block': {
             name: 'Engine Block',
             desc: 'The engine block is the foundation of the engine, typically made from cast iron or aluminum. It houses the cylinders and other components, providing structure and cooling passages for the engine.',
-            image: 'https://images.unsplash.com/photo-1600861195091-690c92f1d2cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+            image: './block.jpg',
             specs: {
                 'Material': 'Cast iron or aluminum',
                 'Weight': 'Varies by engine size',
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'cylinder-head': {
             name: 'Cylinder Head',
             desc: 'The cylinder head sits atop the engine block, sealing the top of the cylinders. It contains the combustion chambers, valves, and often the camshaft(s). Proper sealing is critical for engine performance.',
-            image: 'https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+            image: '/head gasket.webp',
             specs: {
                 'Material': 'Aluminum or cast iron',
                 'Valve Configuration': 'Varies by engine',
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'piston': {
             name: 'Piston',
             desc: 'Pistons move up and down within the engine cylinders, transferring the force of combustion to the connecting rods and ultimately the crankshaft. They must withstand extreme heat and pressure.',
-            image: 'https://images.unsplash.com/photo-1597852074816-d933c7d2b988?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+            image: '/pistons.jpg',
             specs: {
                 'Material': 'Aluminum alloy',
                 'Diameter': 'Varies by engine',
